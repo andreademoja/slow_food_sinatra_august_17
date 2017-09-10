@@ -1,7 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
 form .form-icons {
   text-align: center;
-  position: absolute;
-  left: 40%;
+  margin: 5% 35%;
 }
 
 form .form-icons h4 {
@@ -20,6 +26,7 @@ form .form-icons .input-group-field {
 form .form-icons .fa {
   color: white;
   width: 1rem;
+}
 
 .hero-section {
   background: url("https://static.pexels.com/photos/70842/hot-pepper-pepper-fire-food-70842.jpeg") 50% no-repeat;
@@ -31,11 +38,11 @@ form .form-icons .fa {
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .hero-section .hero-section-text {
@@ -90,4 +97,10 @@ a {
   color: #fefefe;
   padding: 1.2rem 1.5rem;
 
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 20px;
 }
