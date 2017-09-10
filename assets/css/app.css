@@ -1,12 +1,23 @@
-
-input[type="text"] {
-  border-radius: 20px;
+form .form-icons {
+  text-align: center;
+  position: absolute;
+  left: 40%;
 }
 
-input[type="password"] {
-  border-radius: 20px;
+form .form-icons h4 {
+  margin-bottom: 1rem;
 }
 
-input[type="email"] {
-  border-radius: 20px;
+form .form-icons .input-group-label {
+  background-color: #1779ba;
+  border-color: #1779ba;
+}
+
+form .form-icons .input-group-field {
+  border-color: #1779ba;
+}
+
+form .form-icons .fa {
+  color: white;
+  width: 1rem;
 }
