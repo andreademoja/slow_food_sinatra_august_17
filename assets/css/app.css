@@ -20,7 +20,7 @@ form .form-icons .input-group-label {
 }
 
 form .form-icons .input-group-field {
-  border-color: #1779ba;
+  border-color: green;
 }
 
 form .form-icons .fa {
@@ -103,7 +103,6 @@ a {
 .hover-underline-menu .menu a {
   color: #fefefe;
   padding: 1.2rem 1.5rem;
-
 }
 
 footer {
@@ -114,5 +113,4 @@ footer {
 
 form .form-icons .input-group-label {
     background-color: green;
-
 }
