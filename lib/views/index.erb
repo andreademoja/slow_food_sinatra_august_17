@@ -24,7 +24,7 @@
                 <a href="<%= "/order/remove/#{dish.id}" %>">Remove</a>
               </div>
             <% end %>
-            <input type="submit" value="Add" class="button">
+            <input class="button extended custom" type="submit" value="Add" class="button">
           </form>
         </div>
       <% end %>
@@ -32,8 +32,7 @@
   <% else %>
     <p>There are no dishes in the system!</p>
   <% end %>
-  <div class="button">
-    <a href="<%= "/order/clear" %>">Cancel Order</a>
+  <div class="button extended custom">
+    <a href="<%= "/order/clear"%>">Cancel Order</a>
   </div>
-</body>
-</html>
+</div>
