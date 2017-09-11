@@ -20,9 +20,7 @@
             <p> Price: <%= dish.price %> kr </p>
             <input type="text" name="quantity" value="1">
             <% if @order && @order.order_include?(dish) %>
-              <div class="button">
-                <a href="<%= "/order/remove/#{dish.id}" %>">Remove</a>
-              </div>
+                <a class="button extended custom" href="<%= "/order/remove/#{dish.id}" %>">Remove</a>
             <% end %>
             <input class="button extended custom" type="submit" value="Add" class="button">
           </form>
@@ -32,7 +30,5 @@
   <% else %>
     <p>There are no dishes in the system!</p>
   <% end %>
-  <div class="button extended custom">
-    <a href="<%= "/order/clear"%>">Cancel Order</a>
-  </div>
+    <a class="button extended custom" href="<%= "/order/clear"%>">Cancel Order</a>
 </div>
