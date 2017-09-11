@@ -1,6 +1,6 @@
 <form id="create_form" action="/auth/create" method="post">
   <div class="form-icons">
-    <h4>Register for an account</h4>
+    <h5>Register for an account</h5>
     <div class="input-group">
       <span class="input-group-label">
         <i class="fa fa-user"></i>
@@ -33,7 +33,7 @@
         <span class="input-group-label">
           <i class="fa fa-key"></i>
         </span>
-      <input class="input-group-field" type="password" name="password_confirmation" placeholder="Confirm Password" />
+      <input class="input-group-field" type="password" name="[user]password_confirmation" placeholder="Confirm Password" />
     </div>
 
     <div class="input-group">
@@ -56,6 +56,6 @@
         </span>
       <input class="input-group-field" type="text" name="user[phone_number]" placeholder="Phone number" />
     </div>
-    <input class="button expanded" type="submit" value="Submit">
+    <input class="button expanded custom" type="submit" value="Submit">
   </div>
 </form>

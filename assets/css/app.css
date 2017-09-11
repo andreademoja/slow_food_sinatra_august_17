@@ -76,6 +76,13 @@ h3 {
 background-color: darken($buttoncolor, 10%);
 }
 
+h5 {
+  color: green;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 40px;
+}
+
 a {
   color: green;
 }
@@ -103,4 +110,9 @@ footer {
   background: black;
   color: white;
   padding: 20px;
+}
+
+form .form-icons .input-group-label {
+    background-color: green;
+
 }
